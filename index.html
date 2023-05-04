@@ -4,28 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <!--<a href="/market/front/"></a>-->
     <title>Market</title>
-    <style>
-        ul{
-            list-style-type: none;
-            margin: 0%;
-            padding: 0%;
-        }
-        li{
-            display: inline;
-
-        }
-    </style>
 </head>
-<center><body>
-    <div>
-        <h1>hello user!</h1>
+<body>
+    <div class="sidebar">
+        <header>my menu</header>
+        <ul>
+            <li><a href="#"><i class="fas fa-qrcode"></i></a></li>
+            <li><a href="#"><i class="fas fa-qrcode"></i></a></li>
+            <li><a href="#"><i class="fas fa-qrcode"></i></a></li>
+            <li><a href="#"><i class="fas fa-qrcode"></i></a></li>
+        </ul>
+
     </div>
-    <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="front/create_user.html">Sing up</a></li>
-        <li><a href="login.html">Sing in</a></li>
-    </ul>
-</body></center>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="loguito" class="logo-img">
+        </div>
+        <div>
+            <nav>
+                <a href="front/home.html">Home</a>
+                <a href="front/create_user.html">Sing up</a>
+                <a href="front/login.html">Sing in</a>
+                <button class="btnLogin-popup">Login</button>
+            </nav>
+        </div>
+        
+    </header>
+</body>
+
 </html>

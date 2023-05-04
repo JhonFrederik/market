@@ -4,15 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Create User</title>
 </head>
 <center><body>
-    <h1>form</h1>
     <form name="newUserForm" action="http://localhost/market/back/users/create_user.php" method="POST">
-        <label>Firstname </label><input type="text" name="first_name" placeholder="name " required><br>
-        <label>lasttname </label><input type="text" name="last_name" placeholder="second name " required><br>
-        <label>E-mail </label><input type="email" name="email" placeholder="name@email.com " required><br>
-        <label>Password </label><input type="password" name="password" placeholder="******" required><br>
+        <h1>form</h1>
+        <label>
+            <i class="fa-sharp fa-solid fa-person" style="color: #880E4F;"></i>
+            <input type="text" name="first_name" placeholder="name " required>
+        </label><br>
+        <label>
+            <i class="fa-sharp fa-solid fa-person" style="color: #880E4F;"></i>
+            <input type="text" name="last_name" placeholder="second name " required>
+        </label><br>
+        <label>
+            <i class="fa-solid fa-at" style="color: #880E4F;"></i>
+            <input type="email" name="email" placeholder="name@email.com " required>
+        </label><br>
+        <label>
+            <i class="fa-solid fa-lock" style="color: #a30000;"></i>
+            <input type="password" name="password" placeholder="******" required>
+        </label><br>
         <button>Register </button>
     </form>
 </body></center>

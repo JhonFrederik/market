@@ -5,21 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
     <title>Market Login</title>
 </head>
-<center><body>
-    <h1>form</h1>
+<body>
     <form name="newUserForm" action="http://localhost/market/back/users/login.php" method="POST">
-        <label>Username </label><input type="email" name="email" placeholder="name@email.com " required><br>
-        <label>Password </label><input type="password" name="password" placeholder="******" required><br>
+        <h1><title></title></h1>
+        <label>
+            <i class="fa-solid fa-user"></i>&nbsp;
+            <input type="email" name="email" placeholder="name@email.com " required>
+         </label>
+        <label>
+            <i class="fa-solid fa-lock"></i> 
+            <input type="password" name="password" placeholder="******" required>
+        </label>
         <button href="http://127.0.0.1/market/front/home.html">Login </button>
-        <a href="http://127.0.0.1/market/front/create_user.html">Sing up</a> &nbsp;
-        <a href="http://127.0.0.1/market/front/forgot_passwd.html">Forgot your password?</a>
 
         <button class="btn btn-success">login</button>&nbsp;
-        <a href="http://127.0.0.1/market/front/create_user.html" class="btn btn-success">sing up</a>&nbsp;
-        <a href="http://127.0.0.1/market/front/forgot_passwd.html" class="btn btn-success">Forgot your password?</a>&nbsp;
+        <a href="http://127.0.0.1/market/front/create_user.html" class="link">sing up</a>
+        <a href="http://127.0.0.1/market/front/forgot_passwd.html" class="link">Forgot your password?</a>
     </form>
-</body></center>
+</body>
 </html>
